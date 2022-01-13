@@ -128,6 +128,13 @@ nav .logo img{
     color: #ED6B4F;
     font-weight: 500;
 }
+.box {
+    max-width: 75%;
+    padding: 10px;
+}
+.box h5, .box h6{
+    padding-bottom: 3px;
+}
 .course-rationg{
     display: flex;
     justify-content: space-between;
@@ -206,6 +213,11 @@ footer p{
     .blog-single-box img, .course-single-box img {
         width: 150px;
         height: 100px;
+    }
+
+    .box {
+        max-width: 80%;
+        padding: 10px;
     }
 
     footer p{
